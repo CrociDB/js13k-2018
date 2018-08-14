@@ -1,0 +1,11 @@
+{
+  "name": "js13k-2018",
+  "version": "1.0.0",
+  "description": "a game",
+  "main": "index.js",
+  "scripts": {
+    "test": "http-server game/ 8081 -c1"
+  },
+  "author": "Bruno Croci",
+  "license": "MIT"
+}
