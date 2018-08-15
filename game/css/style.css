@@ -1,3 +1,36 @@
 body {
+    background-color: rgb(162, 201, 233);
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #aaaaaa;
+    padding: 0;
+}
+
+header > p {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0;
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 5px;
 }
