@@ -23,6 +23,13 @@ iframe {
     transform: translate(-50%, -50%);
 }
 
+@media (max-height: 720px) and (orientation: landscape) { 
+    iframe {
+        width: 280px;
+        height: 500px;
+    }
+}
+
 @media (max-width: 1080px), handheld and (orientation: portrait) { 
     body {
         background: black;
