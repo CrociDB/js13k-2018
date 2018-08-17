@@ -4,7 +4,7 @@
   "description": "a game",
   "main": "index.js",
   "scripts": {
-    "test": "http-server game/ 8081 -c1"
+    "test": "http-server game/ -a 0.0.0.0 -p 8080 -c-1"
   },
   "author": "Bruno Croci",
   "license": "MIT"
