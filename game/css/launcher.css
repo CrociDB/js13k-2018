@@ -8,6 +8,7 @@ iframe {
     border-top-width: 40px;
     border-bottom-width: 50px;
     border-radius: 30px;
+    box-shadow: -5px 10px #655b66;
 
     width: 360px;
     height: 640px;

@@ -47,8 +47,9 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 footer a {
@@ -56,8 +57,10 @@ footer a {
     text-decoration: none;
     font-size: 30px;
     padding: 0;
-    width: 30%;
-    float: left;
-    text-align: center;
-    margin: 5px;
+    padding-bottom: 10px;
+}
+
+footer a:hover {
+    background: #101010;
+    border-radius: 5px;
 }
