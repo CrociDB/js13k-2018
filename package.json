@@ -5,7 +5,7 @@
   "main": "game/index.html",
   "scripts": {
     "test": "http-server game/ -a 0.0.0.0 -p 8080 -c-1",
-    "build": "node tools/build.js game/game.html game/index.html && du -h build/*"
+    "build": "node tools/build.js game/game.html game/index.html && du -cb build/*"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
