@@ -21,7 +21,7 @@ const processFile = (file) => {
     const linkTag = $("link");
     const cssFile = linkTag.attr("href");
     let cssContent = fs.readFileSync(path.join(workingDir, cssFile)).toString();
-    cssContent = new cleancss({}).minify(cssContent).styles;
+    cssContent = new cleancss({level: 2}).minify(cssContent).styles;
     const styleTag = $("<style>" + cssContent + "</style>");
     $(linkTag).replaceWith(styleTag);
 
